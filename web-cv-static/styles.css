@@ -1,0 +1,142 @@
+/* Estilo de Texto */
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #333652;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between; /* distribuye los elementos del encabezado */
+}
+
+.encabezado p {
+    font-family: 'Rubik', sans-serif;
+}
+
+.foto-perfil {
+    width: 130px;
+    height: 150px;
+    border-radius: 20px;
+    object-fit: cover; /* mantiene la proporción de la imagen */
+    margin-right: 20px;
+}
+
+.nombre-titulo {
+    flex-grow: 1;
+}
+
+.nombre-titulo h1 {
+    margin: 0;
+    color: white;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: white;
+    margin: 10px 0;
+}
+
+.nombre-titulo p {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.icono {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 90px;
+}
+/* Estilo para los enlaces */
+a {
+    color: white; /* Cambia el color de los enlaces a blanco */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Añade subrayado al pasar el ratón sobre el enlace */
+}
+
+/* Sección "Sobre mí" */
+.sobre-mi {
+    margin: 20px;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+.sobre-mi h3 {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.sobre-mi p {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Contenedor principal */
+.contenedor-principal {
+    display: flex;
+    margin: 20px;
+}
+
+.columna-izquierda {
+    background-color: #dedae0;
+    width: 20%;
+    padding: 20px;
+}
+
+.columna-izquierda h3 {
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;
+}
+
+.columna-izquierda p,
+.columna-izquierda ul {
+    font-family: 'Rubik', sans-serif; 
+}
+
+.columna-derecha {
+    width: 60%;
+    padding: 20px;
+}
+
+.columna-derecha h3 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.columna-derecha p,
+.columna-derecha ul {
+    font-family: 'Rubik', sans-serif; 
+}
+
+.footer {
+    background-color: #333652;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-link {
+    color: white; 
+    text-decoration: none; 
+}
+
+.footer-link:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+/* Ajustes adicionales */
+.rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
